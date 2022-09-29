@@ -14,7 +14,7 @@ const ProductList = () => {
       fetch("https://fakestoreapi.com/products").then(async (res) =>
         setProducts(await res.json())
       );
-      if (filter.filter !== "") {
+      if (filter.filter) {
         setFilterProducts(
           products.filter((product) => {
             if (product.category == filter.filter) {
@@ -23,6 +23,7 @@ const ProductList = () => {
           })
         );
       } else {
+        setFilterProducts(products);
       }
     };
     getProducts();
