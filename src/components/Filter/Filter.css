@@ -1,0 +1,16 @@
+.filter {
+}
+.categories {
+  padding: 10px;
+  background-color: white;
+  outline: none;
+  border-bottom: 0.5px solid blue;
+  border-right: 0.5px solid blue;
+  border-top: 0.5px solid rgb(255, 255, 255);
+  border-left: 0.5px solid rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 100;
+}
+.categories:hover {
+  border: 0.5px solid blue;
+}

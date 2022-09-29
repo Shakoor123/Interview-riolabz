@@ -1,0 +1,64 @@
+.navbar {
+  height: 70px;
+  box-shadow: 0px 10px 21px -5px rgba(5, 7, 5, 0.75);
+  -webkit-box-shadow: 0px 10px 21px -5px rgba(39, 44, 38, 0.75);
+  -moz-box-shadow: 0px 10px 21px -5px rgba(32, 118, 19, 0.75);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: rgba(240, 248, 255, 0.949);
+
+  border-radius: 25px;
+}
+.navbarwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.name {
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: rgb(6, 50, 6);
+  box-shadow: 0px 10px 21px -5px rgba(32, 118, 19, 0.75);
+  -webkit-box-shadow: 0px 10px 21px -5px rgba(32, 118, 19, 0.75);
+  -moz-box-shadow: 0px 10px 21px -5px rgba(32, 118, 19, 0.75);
+}
+.dark {
+  padding: 5px;
+  margin-right: 20px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(206, 249, 235);
+  border-radius: 5px;
+  border: 3px solid brown;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.dark:hover {
+  background-color: white;
+}
+.light {
+  padding: 5px;
+  margin-right: 20px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: aliceblue;
+  border-radius: 5px;
+  border: 3px solid brown;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.light:hover {
+  background-color: rgb(170, 168, 168);
+  color: black;
+}

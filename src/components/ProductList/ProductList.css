@@ -1,0 +1,8 @@
+.productlist {
+  padding: 30px;
+}
+.productlistwrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

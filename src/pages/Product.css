@@ -1,0 +1,36 @@
+.product {
+  margin-top: 80px;
+  display: flex;
+}
+.productLeft {
+  flex: 1;
+}
+.productImage {
+  height: 60vh;
+  width: auto;
+  max-width: 500px;
+  object-fit: contain;
+}
+.productRight {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.categores {
+  font-size: 16px;
+  color: gray;
+
+  font-weight: 500;
+}
+.value {
+  font-weight: 300;
+  margin-left: 10px;
+  color: black;
+}
+.headding {
+  font-size: 26px;
+  font-weight: 700;
+  color: rgb(71, 66, 66);
+}
