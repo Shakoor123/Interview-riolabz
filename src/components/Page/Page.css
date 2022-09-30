@@ -1,0 +1,22 @@
+.pages {
+  background-color: rgba(127, 255, 212, 0.625);
+  margin-top: 10px;
+  padding: 0 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-radius: 30px;
+}
+.pageWrapper {
+  display: flex;
+  align-self: center;
+  gap: 40px;
+}
+.button {
+  background-color: teal;
+  color: white;
+  border: none;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}

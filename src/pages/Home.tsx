@@ -6,7 +6,6 @@ import "./Home.css";
 const home = () => {
   return (
     <div className="Home">
-      <Navbar />
       <Filter />
       <ProductList />
     </div>

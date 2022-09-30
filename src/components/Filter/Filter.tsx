@@ -4,7 +4,7 @@ import { addfilter } from "../../redux/filterSlice";
 import "./Filter.css";
 const Filter = () => {
   const dispatch = useDispatch();
-  const handleFilter = (e) => {
+  const handleFilter = (e: { target: { value: any } }) => {
     const value = e.target.value;
     dispatch(addfilter(value));
   };
@@ -17,7 +17,7 @@ const Filter = () => {
         id=""
         onChange={handleFilter}
       >
-        <option disabled selected>
+        <option value="" selected>
           All
         </option>
         <option value="men's clothing">Men's clothing</option>

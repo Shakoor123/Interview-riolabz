@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import Navbar from "../components/Navbar/Navbar";
 import "./Product.css";
 
 const Product = () => {
@@ -25,7 +24,6 @@ const Product = () => {
 
   return (
     <>
-      <Navbar />
       <div className="product">
         <div className="productLeft">
           <img src={product.image} alt="" className="productImage" />
