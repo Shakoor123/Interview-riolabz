@@ -42,9 +42,11 @@ const Product = () => {
             Price :~ <span className="value">{product.price}</span>
           </span>
           <span className="categores">
-            Raiting :~ <span className="value">{product.rating.rate}</span>
+            {/* @ts-ignore */}
+            Raiting :~ <span className="value">{product.rating.ratea}</span>
           </span>
           <span className="categores">
+            {/* @ts-ignore */}
             Peoples :~ <span className="value">{product.rating.count}</span>
           </span>
         </div>

@@ -3,6 +3,7 @@ import Card from "../Card/Card";
 import { useSelector } from "react-redux";
 import Page from "../Page/Page";
 import "./ProductList.css";
+import Filter from "../Filter/Filter";
 const ProductList = () => {
   const [products, setProducts] = useState([]);
   const [filterProducts, setFilterProducts] = useState([]);
@@ -43,6 +44,7 @@ const ProductList = () => {
 
   return (
     <div className="productlist">
+      <Filter products={products} />
       <div className="productlistwrapper">
         {currentPageProducts.map((product: any) => (
           <Card key={product} {...product} />

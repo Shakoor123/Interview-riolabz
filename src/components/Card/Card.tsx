@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import "./Card.css";
 type cardItem = {
   id: number;
-  title: String;
-  category: String;
-  description: String;
-  image: String;
-  price: Number;
+  title: string;
+  category: string;
+  description: string;
+  image: string;
+  price: number;
   rating: Object;
 };
 const Card = ({
